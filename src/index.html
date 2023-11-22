@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FONTE-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap" rel="stylesheet">
+    <!--FONTE-->
+    <!--ICONES-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!--ICONES-->
+    <link href="../dist/output.css" rel="stylesheet">
+    <!--favicon-->
+    <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
+    <!--favicon-->
+    <title>Portfólio</title>
+</head>
+<body class="bg-black m-auto p-0 box-border font-montserrat xl:max-w-7xl">
+    <header class="pt-8 flex items-center justify-between">
+        <div class="">
+            <a class="rounded-lg" href="#">
+                <img class="xl:w-64 xl:h-64 transition transform hover:scale-105 delay-100" src="Imagens/logo-pedro.png" alt="Logo Pedro">
+            </a>
+        </div><!--logo-->
+        <nav>
+            <ul class="flex list-none transition delay-100">
+                <li class="xl:text-xl transition delay-100 transform hover:scale-105">
+                    <a id="Inicio" class="text-white hover:text-green-200" href="#Inicio">Inicio</a></li>
+                <li class="xl:px-10 transition delay-100">
+                    <li class="xl:text-xl transition delay-100 transform hover:scale-105 px-10">
+                        <a class="text-white hover:text-green-200" href="#Competências">Competências</a></li>
+            </ul>
+        </nav>
+        <div class="hidden xl:block transition transform hover:scale-105 delay-100">
+            <a href="#Contato">
+                <button class="bg-green-200 cursor-pointer rounded-full border-0 text-xl font-semibold p-3 px-10">Contato</button>
+            </a>
+        </div><!--interface-->
+    </header>
+    <main>
+        <section class="pt-5"><!--topo-do-site-->
+            <div><!--interface-->
+                <div class="items-center justify-center gap-24 xl:mb-48 xl:flex"><!--flex-->
+                    <div><!--Apresentação-->
+                        <h1 class="text-green-200 text-2xl xl:text-4xl mt-12 ml-20">Apresentação</h1>
+                        <p class="text-white text-sm xl:text-xl mt-10 px-12 m-auto text-justify">
+                            Meu nome é Pedro, tenho 26 anos. Sempre tive interesse em tecnologia e suas diversidades.
+                            Por conta disso, comecei em 2022 a procurar por cursos e videoaulas sobre programação,
+                            e junto com isso, iniciei minha faculdade de Análise e Desenvolvimento de Sistemas,
+                            Futuramente, penso em cursar inglês e outras línguas para me aperfeiçoar no meu campo de
+                            trabalho.</p>
+                    </div><!--TEXTO APRESENTAÇÃO-->
+                    <div class="mt-12 xl:flex justify-center hidden">
+                        <img class="w-36 rounded-lg xl:w-[900px] xl:h-80" src="Imagens/eu.jpg" alt="">
+                    </div><!--MINHA FOTO-->
+                </div><!--FLEX-->
+            </div><!--INTERFACE-->
+        </section><!--topo do site-->
+
+        <section class="mt-10 xl:mt-72"><!--especialidades-->
+            <div class=""><!--interface-->
+                <h2 id="Competências" 
+                class="text-green-200 text-2xl xl:text-4xl text-center mt-7">Minhas Competências</h2><!--titulo-->
+                <div class=""><!--flex-->
+                    <div class="justify-between flex flex-col xl:flex-row ml-4 xl:ml-12 pt-4 items-center"><!--space-between-->
+                    <div class="text-white pt-10 m-auto hover:shadow hover:shadow-zinc-600 transition transform hover:scale-105 delay-100 my-6 w-full flex flex-col items-center"><!--certificados-box-->
+                        <i class="bi bi-patch-check text-4xl xl:text-7xl text-green-200"></i><!--Icones-->
+                        <h3 class="text-xl xl:text-2xl my-6">Concluidos</h3>
+                        <p class="text-sm xl:text-lg">Power Bi</p>
+                        <p class="text-sm xl:text-lg">Excel</p>
+                        <p class="text-sm xl:text-lg">Python</p>
+                    </div>
+                    <div class="text-white pt-12 m-auto xl:ml-0 hover:shadow hover:shadow-zinc-600 transition transform hover:scale-105 delay-100 mr-20 w-full flex flex-col items-center"><!--em-desenvolvimento-box-->
+                        <i class="bi bi-book-half text-4xl xl:text-7xl text-green-200"></i><!--Icones-->
+                        <h3 class="text-xl xl:text-2xl my-6">Desenvolvimento</h3>
+                        <p class="text-sm xl:text-lg my-1 text-center">Análise Desenvolvimento de Sistemas<br>JavaScript</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    <footer class="p-[60px]">
+        <div class=""><!--interface-->
+            <div id="Contato" class="">
+                <div class="flex justify-between"><!--flex-->
+                    <div class=""><!--logo-footer-->
+                        <img class="w-20 xl:w-44 xl:pb-16" src="Imagens/logo-pedro.png" alt="Logo Pedro">
+                    </div>
+                    <div class="text-green-200 rounded-3xl xl:text-4xl m-1 flex space-x-5"><!--btn-social-->
+                        <a class="shadow-slate-400 transition transform hover:scale-105 delay-100" href="https://www.linkedin.com/in/pedro-reiser-da-costa/"><button><i class="bi bi-linkedin"></i></button></a>
+                        <a class="shadow-slate-400 transition transform hover:scale-105 delay-100" href="https://www.instagram.com/pedroreiserc/"><button><i class="bi bi-instagram"></i></button></a>
+                        <a class="shadow-slate-400 transition transform hover:scale-105 delay-100" href="https://web.whatsapp.com/send?phone=47999000202"><button><i class="bi bi-whatsapp"></i></button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="p-1 text-white border-t-2 border-t-green-200 "><!--linha-footer-borda-->
+                <p><i class="bi bi-envelope-fill text-green-200"></i> <a class="underline text-sm" href="mailto:pedroraiser5@hotmail.com">pedroraiser5@hotmail.com</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
